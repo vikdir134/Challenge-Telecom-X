@@ -1,6 +1,6 @@
 # Telecom X — Análisis Exploratorio de Churn (EDA)
 
-![Portada](images/portada.png)
+![Portada](images/portada.jpg)
 
 ## Descripción
 Este proyecto realiza un **análisis exploratorio de datos (EDA)** para estudiar la **evasión de clientes (Churn)** en una empresa de telecomunicaciones.  
@@ -46,47 +46,47 @@ Principales variables incluidas (nombres pueden variar según estandarización f
 > Los gráficos principales del análisis se guardan en `images/` y se muestran abajo.
 
 ### 1) Distribución general del churn
-![Distribución churn](images/churn_distribucion.png)
+![Distribución churn](images/churn_distribucion.jpg)
 
 - Aproximadamente **una cuarta parte** de la base presenta churn (valor puede variar según limpieza final).
 
 ### 2) Tipo de contrato (driver fuerte)
-![Churn por contrato](images/churn_contrato.png)
+![Churn por contrato](images/churn_contrato.jpg)
 
 - El contrato **Month-to-month** tiene la tasa de churn más alta.
 - Contratos de **1–2 años** muestran churn mucho menor.
 
 ### 3) Método de pago
-![Churn por método de pago](images/churn_metodo_pago.png)
+![Churn por método de pago](images/churn_metodo_pago.jpg)
 
 - **Cheque electrónico** presenta la mayor tasa de churn.
 - Pagos automáticos tienden a tener churn menor (posible menor fricción y mayor retención).
 
 ### 4) Factura digital
-![Churn por factura digital](images/churn_factura_digital.png)
+![Churn por factura digital](images/churn_factura_digital.jpg)
 
 - La facturación digital se asocia a mayor churn (relación correlacional; puede cruzarse con contrato/pago).
 
 ### 5) Adultos mayores
-![Churn por mayor_65](images/churn_mayor_65.png)
+![Churn por mayor_65](images/churn_mayor_65.jpg)
 
 - Los clientes mayores de 65 años muestran mayor riesgo de churn.
 
 ### 6) Variables numéricas (antigüedad y cargos)
-![Boxplots numéricas](images/numericas_boxplots.png)
+![Boxplots numéricas](images/numericas_boxplots.jpg)
 
 - Los clientes con churn tienden a tener **menor antigüedad**.
 - Se observan diferencias en **cargo mensual** y **cargo total** entre churn vs no churn.
 
 ### 7) Correlación (Pearson) — análisis extra
-![Heatmap correlación](images/correlacion_heatmap.png)
+![Heatmap correlación](images/correlacion_heatmap.jpg)
 
 - `antiguedad_meses` se asocia negativamente con churn.
 - `cargo_mensual` / `Cuentas_Diarias` se asocian positivamente con churn.
 > Nota: correlación ≠ causalidad, solo asociación lineal.
 
 ### 8) Churn vs cantidad de servicios (`num_servicios`)
-![Churn por num_servicios](images/churn_num_servicios.png)
+![Churn por num_servicios](images/churn_num_servicios.jpg)
 
 - Se observa un patrón **no lineal**: churn más alto en paquetes intermedios y menor en clientes con muchos servicios (posible mayor integración y costo de cambio).
 
@@ -111,3 +111,16 @@ Principales variables incluidas (nombres pueden variar según estandarización f
 Requiere Python 3.10+ recomendado.
 ```bash
 pip install pandas numpy matplotlib
+
+---
+
+## Agradecimientos
+Agradezco al programa **ONE (Oracle Next Education)** y a **Alura Latam** por la formación y los recursos brindados, que fueron clave para desarrollar las habilidades utilizadas en este proyecto (Python, análisis de datos y visualización).
+
+---
+
+## Contacto
+- **Email:** victorcamargoch133@gmail.com  
+- **GitHub:** [vikdir134](https://github.com/vikdir134)  
+- **LinkedIn:** [victorcamargoch](https://www.linkedin.com/in/victorcamargoch)
+
