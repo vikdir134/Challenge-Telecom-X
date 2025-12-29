@@ -113,16 +113,11 @@ Agradezco al programa **ONE (Oracle Next Education)** y a **Alura Latam** por la
 
 ## Cómo ejecutar el proyecto (Colab)
 ### Opción A: Abrir el notebook en Google Colab
-1. Entra a la carpeta `notebook/`
-2. Abre `TelecomX_Churn_Analysis.ipynb` con Colab
-3. Asegúrate de subir el dataset `data/data.json` o montar Google Drive
+1. Abre `TelecomX_Churn_Analysis.ipynb` con Colab
+2. Asegúrate de subir el dataset `TelecomX_Data.json` o montar Google Drive
 
 ### Opción B: Ejecutar local (opcional)
 Requiere Python 3.10+ recomendado.
 ```bash
 pip install pandas numpy matplotlib
-
 ---
-
-
-
