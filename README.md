@@ -36,8 +36,9 @@ Principales variables incluidas (nombres pueden variar según estandarización f
 ---
 
 ## Estructura del repositorio
-- `notebook/TelecomX_Churn_Analysis.ipynb`: notebook principal con todo el análisis.
-- `data/data.json`: dataset original (JSON).
+- `Telecom_X.ipynb`: notebook principal con todo el análisis.
+- `TelecomX_Data.json`: dataset original (JSON).
+- `TelecomX_Data_diccionario.md`: diccionario de las variables.
 - `images/`: capturas de gráficos y tablas principales para este README.
 
 ---
